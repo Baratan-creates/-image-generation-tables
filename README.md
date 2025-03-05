@@ -1,4 +1,4 @@
-# -image-generation-tables
+# Image & Language-Generation-Tables
 Researching and cataloging generative ai image parameters and language model (LLM) creative writing and comprehension.
 
 # Status
@@ -27,7 +27,7 @@ I will produce and publish image generations grids for the following parameters.
 **Below Grid data without an image is placeholder**
 | Model | Resolution | Steps | CFG | Sampler | Scheduler | Generation Time | Styles | Name Recognition | Characters | Text |
 |:-----------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Flux.schnell | 1024x1024 | 4 | 1 | Euler | Simple | 25.0s |
+| Flux.schnell <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/Flux.Schnell.png?raw=true" width="100">| 1024x1024 | 4 | 1 | Euler | Beta | 9.72s | Styles? | No | No | Yes |
 | Flux.Dev | 1024x1024 | 25 | 1 | Euler | Simple | 50.0s |
 | Stable-Diffusion 1.5 | 512x512 | 20 | 5 | DPM++ SDE | SGM Uniform | 2.0s |
 | Stable-Diffusion XL (SDXL) | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 10.0s |
