@@ -24,7 +24,7 @@ I will produce and publish image generations grids for the following parameters.
 **Name Recognition** Indicates whether or not an image generation model can produce recognizable lickeness of named figures. 
 **Characters** Indicates whether or not the model can generate images of common fictional characters without a lora or descriptive text.
 
-**Below Grid data is placeholder**
+**Below Grid data without an image is placeholder**
 | Model | Resolution | Steps | CFG | Sampler | Scheduler | Generation Time | Styles | Name Recognition | Characters | Text |
 |:-----------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Flux.schnell | 1024x1024 | 4 | 1 | Euler | Simple | 25.0s |
@@ -35,12 +35,12 @@ I will produce and publish image generations grids for the following parameters.
 | Illustrious (SDXL) | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 10.0s |
 | Stable-Diffusion 3 | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 30.0s |
 | Stable-Diffusion 3.5 Medium | 1024x1024 | 4 | 1 | Euler | Beta | 8.0s |
-| Stable-Diffusion 3.5 Medium Turbo <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5MediumTurbo.png?raw=true" width="100">| 1024x1024 | 20 | 5 | Euler | Beta | 30.0s |
+| Stable-Diffusion 3.5 Medium Turbo <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5MediumTurbo.png?raw=true" width="100">| 1024x1024 | 8 | 1.5 | Euler Ancestral | Beta | 4.83s |
 | Stable-Diffusion 3.5 Large | 1024x1024 | 20 | 5 | Euler | Beta | 60.0s |
 | Stable-Diffusion 3.5 Large Turbo | 1024x1024 | 8 | 1 | Euler | Beta | 15.0s |
-| Wan Text-To-Video 1.3B <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation/wan-text-to-image-1.3b.webp" width="100">| 640x640 | 20 | 5 | Euler Ancestral | Beta | 40.0s |
-| Wan Text-To-Video 14B <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation/wan-text-to-image-14b.webp" width="100">| 640x640 | 20 | 5 | Euler Ancestral | Beta | 90.0s |
+| Wan Text-To-Video 1.3B <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation/wan-text-to-image-1.3b.webp" width="100">| 640x640 | 40 | 5 | Euler Ancestral | Beta | 71.00s |
+| Wan Text-To-Video 14B <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation/wan-text-to-image-14b.webp" width="100">| 640x640 | 40 | 5 | Euler Ancestral | Beta | 8.45m |
 | Wan Image-To-Video 14B - 480p | 640x640 | 20 | 5 | Euler Ancestral | Beta | 120.0s |
 | Wan Image-To-Video 14B - 720p | 960x960 | 20 | 5 | Euler Ancestral | Beta | 340.0s |
 
-**Above Grid data is placeholder**
+**Above Grid data without an image is placeholder**
