@@ -39,7 +39,7 @@ I will produce and publish image generations grids for the following parameters.
 | Stable-Diffusion 3.5 Large | 1024x1024 | 20 | 5 | Euler | Beta | 60.0s |
 | Stable-Diffusion 3.5 Large Turbo | 1024x1024 | 8 | 1 | Euler | Beta | 15.0s |
 | Wan Text-To-Video 1.3B | 640x640 | 20 | 5 | Euler Ancestral | Beta | 40.0s |
-| Wan Text-To-Video 14B | 640x640 | 20 | 5 | Euler Ancestral | Beta | 90.0s |
+| Wan Text-To-Video 14B <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation/4.webp" width="100">| 640x640 | 20 | 5 | Euler Ancestral | Beta | 90.0s |
 | Wan Image-To-Video 14B - 480p | 640x640 | 20 | 5 | Euler Ancestral | Beta | 120.0s |
 | Wan Image-To-Video 14B - 720p | 960x960 | 20 | 5 | Euler Ancestral | Beta | 340.0s |
 
