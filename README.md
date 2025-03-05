@@ -19,9 +19,13 @@ Langage models are scored based on `compliance, comprehension, coherence, creati
 **Image Model Parameter Evaluation**
 Rather than trying to rank image generation models based on subjective opinions I will record how the different parameters affect the outcome of the generation, hopefully allowing viewers to tweak their generations more to their liking. 
 I will produce and publish image generations grids for the following parameters. 
+
 **Generation Time** Records an average generation time on a RTX3080 GPU using listed parameters.
+
 **Styles** counts the number of styles the model can produce naturally (anime, photo, 3d rendering, hyperrealism). 
+
 **Name Recognition** Indicates whether or not an image generation model can produce recognizable lickeness of named figures. 
+
 **Characters** Indicates whether or not the model can generate images of common fictional characters without a lora or descriptive text.
 
 **Below Grid data without an image is placeholder**
