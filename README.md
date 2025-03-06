@@ -40,7 +40,7 @@ I will produce and publish image generations grids for the following parameters.
 | Stable-Diffusion 3 | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 30.0s |
 | Stable-Diffusion 3.5 Medium <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5Medium.png?raw=true" width="100"> | 1024x1024 | 30 | 5 | Euler | Normal | 15.34s | | No | Yes | Yes |
 | Stable-Diffusion 3.5 Medium Tensor-Art TurboX <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5MediumTurbo.png?raw=true" width="100"> | 1024x1024 | 8 | 1.5 | Euler Ancestral | Beta | 4.83s | | No | Yes | No |
-| Stable-Diffusion 3.5 Large | 1024x1024 | 20 | 5 | Euler | Beta | 60.0s |
+| Stable-Diffusion 3.5 Large <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5Large.png?raw=true" width="100">| 1024x1024 | 30 | 5 | Euler Ancestral | Normal | 49.64s | | Yes | Yes | Yes |
 | Stable-Diffusion 3.5 Large Tensor-Art TurboX <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5LargeTurbo.png?raw=true" width="100"> | 1024x1024 | 8 | 1.5 | Euler | Normal | 15.75s | | Yes | Yes | Yes |
 | Wan Text-To-Video 1.3B <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation/wan-text-to-image-1.3b.webp" width="100"> | 640x640 | 40 | 5 | Euler Ancestral | Beta | 71.00s |
 | Wan Text-To-Video 14B <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation/wan-text-to-image-14b.webp" width="100"> | 640x640 | 40 | 5 | Euler Ancestral | Beta | 8.45m | | | | Yes |
