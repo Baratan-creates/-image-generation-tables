@@ -31,8 +31,8 @@ I will produce and publish image generations grids for the following parameters.
 **Below Grid data without an image is placeholder**
 | Model | Resolution | Steps | CFG | Sampler | Scheduler | Generation Time | Styles | Name Recognition | Characters | Text |
 |:-----------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Flux.schnell <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/Flux.Schnell.png?raw=true" width="100">| 1024x1024 | 4 | 1 | Euler | Beta | 9.72s | Styles? | No | No | Yes |
-| Flux.Dev <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/Flux.Dev.png?raw=true" width="100">| 1024x1024 | 30 | 1 | Euler Ancestral | Beta | 64.78s | Styles? | ? | Yes | Yes |
+| Flux.schnell <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/Flux.Schnell.png?raw=true" width="100">| 1024x1024 | 4 | 1 | Euler | Beta | 9.72s |  | No | No | Yes |
+| Flux.Dev <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/Flux.Dev.png?raw=true" width="100">| 1024x1024 | 30 | 1 | Euler Ancestral | Beta | 64.78s |  | No | Yes | Yes |
 | Stable-Diffusion 1.5 | 512x512 | 20 | 5 | DPM++ SDE | SGM Uniform | 2.0s |
 | Stable-Diffusion XL (SDXL) | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 10.0s |
 | Pony (SDXL) | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 10.0s |
