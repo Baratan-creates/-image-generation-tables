@@ -32,16 +32,16 @@ I will produce and publish image generations grids for the following parameters.
 | Model | Resolution | Steps | CFG | Sampler | Scheduler | Generation Time | Styles | Name Recognition | Characters | Text |
 |:-----------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Flux.schnell <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/Flux.Schnell.png?raw=true" width="100">| 1024x1024 | 4 | 1 | Euler | Beta | 9.72s | Styles? | No | No | Yes |
-| Flux.Dev | 1024x1024 | 25 | 1 | Euler | Simple | 50.0s |
+| Flux.Dev <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/Flux.Dev.png?raw=true" width="100">| 1024x1024 | 30 | 1 | Euler Ancestral | Beta | 64.78s | Styles? | ? | Yes | Yes |
 | Stable-Diffusion 1.5 | 512x512 | 20 | 5 | DPM++ SDE | SGM Uniform | 2.0s |
 | Stable-Diffusion XL (SDXL) | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 10.0s |
 | Pony (SDXL) | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 10.0s |
 | Illustrious (SDXL) | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 10.0s |
 | Stable-Diffusion 3 | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 30.0s |
 | Stable-Diffusion 3.5 Medium <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5Medium.png?raw=true" width="100"> | 1024x1024 | 30 | 5 | Euler | Normal | 15.34s | | No | Yes | Yes |
-| Stable-Diffusion 3.5 Medium Turbo <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5MediumTurbo.png?raw=true" width="100"> | 1024x1024 | 8 | 1.5 | Euler Ancestral | Beta | 4.83s | | No | Yes | No |
+| Stable-Diffusion 3.5 Medium Tensor-Art TurboX <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5MediumTurbo.png?raw=true" width="100"> | 1024x1024 | 8 | 1.5 | Euler Ancestral | Beta | 4.83s | | No | Yes | No |
 | Stable-Diffusion 3.5 Large | 1024x1024 | 20 | 5 | Euler | Beta | 60.0s |
-| Stable-Diffusion 3.5 Large Turbo <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5LargeTurbo.png?raw=true" width="100"> | 1024x1024 | 8 | 1.5 | Euler | Normal | 15.75s | | Yes | Yes | Yes |
+| Stable-Diffusion 3.5 Large Tensor-Art TurboX <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5LargeTurbo.png?raw=true" width="100"> | 1024x1024 | 8 | 1.5 | Euler | Normal | 15.75s | | Yes | Yes | Yes |
 | Wan Text-To-Video 1.3B <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation/wan-text-to-image-1.3b.webp" width="100"> | 640x640 | 40 | 5 | Euler Ancestral | Beta | 71.00s |
 | Wan Text-To-Video 14B <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation/wan-text-to-image-14b.webp" width="100"> | 640x640 | 40 | 5 | Euler Ancestral | Beta | 8.45m | | | | Yes |
 | Wan Image-To-Video 14B - 480p | 640x640 | 20 | 5 | Euler Ancestral | Beta | 120.0s |
