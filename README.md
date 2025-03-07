@@ -1,12 +1,19 @@
 # Image & Language-Generation-Tables
 Researching and cataloging generative ai image parameters and language model (LLM) creative writing and comprehension.
 
-# Status
+## Table of Contents
+- [Image & Language-Generation-Tables](#image--language-generation-tables)
+- [Status](#status)
+- [Roadmap](#roadmap)
+  - [Language Model Evaluations](#language-model-evaluations)
+  - [Image Model Parameter Evaluation](#image-model-parameter-evaluation)
+
+## Status
 This project is in **early development status**. This means that the basic catalogue of data has not yet been converted to the appropriate format for this website.
 
-# Roadmap
+## Roadmap
 I plan on evaluating and cataloging the following sets of data.
-**Language Model Evaluations**
+### Language Model Evaluations
 **Score** Language Model Creative Writing Scoring Index
 Langage models are scored based on `compliance, comprehension, coherence, creativity and realism.
 
@@ -16,7 +23,7 @@ Langage models are scored based on `compliance, comprehension, coherence, creati
 | Example #2 | 75 | 12B | Q5_K_M | ChatML |
 | Example #3 | 50 | 8B | Q4_K_M | ChatML |
 
-**Image Model Parameter Evaluation**
+### Image Model Parameter Evaluation
 Rather than trying to rank image generation models based on subjective opinions I will record how the different parameters affect the outcome of the generation, hopefully allowing viewers to tweak their generations more to their liking. 
 I will produce and publish image generations grids for the following parameters. 
 
