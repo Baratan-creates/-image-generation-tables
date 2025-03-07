@@ -4,16 +4,16 @@ Researching and cataloging generative ai image parameters and language model (LL
 ## Table of Contents
 - [Image & Language-Generation-Tables](#image--language-generation-tables)
 - [Status](#status)
-- [Roadmap](#roadmap)
-  - [Language Model Evaluations](#language-model-evaluations)
-  - [Image Model Parameter Evaluation](#image-model-parameter-evaluation)
+- [Language Model Evaluations](#language-model-evaluations)
+  - [Language Models](#language-models)
+- [Image Model Parameter Evaluation](#image-model-parameter-evaluation)
+  - [Image Models](#image-models)
+  - [Image Styles](#image-styles)
 
 ## Status
 This project is in **early development status**. This means that the basic catalogue of data has not yet been converted to the appropriate format for this website.
 
-## Roadmap
-I plan on evaluating and cataloging the following sets of data.
-### Language Model Evaluations
+## Language Model Evaluations
 **Score** Language Model Creative Writing Scoring Index
 Langage models are scored based on `compliance, comprehension, coherence, creativity and realism.
 
@@ -23,7 +23,7 @@ Langage models are scored based on `compliance, comprehension, coherence, creati
 | Example #2 | 75 | 12B | Q5_K_M | ChatML |
 | Example #3 | 50 | 8B | Q4_K_M | ChatML |
 
-### Image Model Parameter Evaluation
+## Image Model Parameter Evaluation
 Rather than trying to rank image generation models based on subjective opinions I will record how the different parameters affect the outcome of the generation, hopefully allowing viewers to tweak their generations more to their liking. 
 I will produce and publish image generations grids for the following parameters. 
 
@@ -35,7 +35,7 @@ I will produce and publish image generations grids for the following parameters.
 
 **Characters** Indicates whether or not the model can generate images of common fictional characters without a lora or descriptive text.
 
-**Below Grid data without an image is placeholder**
+### Image Models
 | Model | Resolution | Steps | CFG | Sampler | Scheduler | Generation Time | Styles | Name Recognition | Characters | Text |
 |:-----------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Flux.schnell <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/Flux.Schnell.png?raw=true" width="100">| 1024x1024 | 4 | 1 | Euler | Beta | 9.72s |  | No | No | Yes |
@@ -54,4 +54,12 @@ I will produce and publish image generations grids for the following parameters.
 | Wan Image-To-Video 14B - 480p | 640x640 | 20 | 5 | Euler Ancestral | Beta | 120.0s |
 | Wan Image-To-Video 14B - 720p | 960x960 | 20 | 5 | Euler Ancestral | Beta | 340.0s |
 
-**Above Grid data without an image is placeholder**
+### Image Styles
+While there are thousands of styles that apply to image generation models. It is important to know which *basic* styles a model can produce before narrowing in on a specific artist or sub-style such as *cinematic film still*, or *analog film photo*. In the basic evaluation, I test to see whether or not an image model is capable of creating images in basic styles. Anime/Cartoon, Photorealistic, 3D Rendering, Hyperrealism/2.5D Art
+
+| Style | Thumb | Sample Prompt |
+|:-----------|:---:|:---:|
+| Anime/Cartoon | Thumb | anime artwork illustration of a cat in a magical rainbow forest |
+| Photorealistic | Thumb | cinematic film still of a cat in a magical rainbow forest |
+| 3D Rendering | Thumb | in-game 3d rendering of a cat in a magical rainbow forest |
+| Hyperrealism/2.5D Art | Thumb | hyperrealistic art of a cat in a magical rainbow forest |
