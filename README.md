@@ -38,19 +38,19 @@ I will produce and publish image generations grids for the following parameters.
 ### Image Models
 | Model | Resolution | Steps | CFG | Sampler | Scheduler | Generation Time | Styles | Name Recognition | Characters | Text |
 |:-----------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Flux.schnell <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/Flux.Schnell.png?raw=true" width="100">| 1024x1024 | 4 | 1 | Euler | Beta | 9.72s |  | No | No | Yes |
-| Flux.Dev <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/Flux.Dev.png?raw=true" width="100">| 1024x1024 | 30 | 1 | Euler Ancestral | Beta | 64.78s |  | No | Yes | Yes |
-| Stable-Diffusion 1.5 <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD1.5.png?raw=true" width="100">| 512x512 | 30 | 6 | DPM++ 2M SDE | SGM Uniform | 2.42s | | Yes | Yes | No |
-| Stable-Diffusion XL (SDXL) <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SDXL.png?raw=true" width="100">| 1024x1024 | 30 | 5 | DPM++ SDE | SGM Uniform | 14.39s | | Yes | Yes | No |
+| Flux.schnell <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/Flux.Schnell.png?raw=true" width="256">| 1024x1024 | 4 | 1 | Euler | Beta | 9.72s |  | No | No | Yes |
+| Flux.Dev <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/Flux.Dev.png?raw=true" width="256">| 1024x1024 | 30 | 1 | Euler Ancestral | Beta | 64.78s |  | No | Yes | Yes |
+| Stable-Diffusion 1.5 <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD1.5.png?raw=true" width="256">| 512x512 | 30 | 6 | DPM++ 2M SDE | SGM Uniform | 2.42s | | Yes | Yes | No |
+| Stable-Diffusion XL (SDXL) <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SDXL.png?raw=true" width="256">| 1024x1024 | 30 | 5 | DPM++ SDE | SGM Uniform | 14.39s | | Yes | Yes | No |
 | Pony (SDXL) | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 10.0s |
 | Illustrious (SDXL) | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 10.0s |
 | Stable-Diffusion 3 | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 30.0s |
-| Stable-Diffusion 3.5 Medium <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5Medium.png?raw=true" width="100"> | 1024x1024 | 30 | 5 | Euler | Normal | 15.34s | | No | Yes | Yes |
-| Stable-Diffusion 3.5 Medium Tensor-Art TurboX <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5MediumTurbo.png?raw=true" width="100"> | 1024x1024 | 8 | 1.5 | Euler Ancestral | Beta | 4.83s | | No | Yes | No |
-| Stable-Diffusion 3.5 Large <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5Large.png?raw=true" width="100">| 1024x1024 | 30 | 5 | Euler Ancestral | Normal | 49.64s | | Yes | Yes | Yes |
-| Stable-Diffusion 3.5 Large Tensor-Art TurboX <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5LargeTurbo.png?raw=true" width="100"> | 1024x1024 | 8 | 1.5 | Euler | Normal | 15.75s | | Yes | Yes | Yes |
-| Wan Text-To-Video 1.3B <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation/wan-text-to-image-1.3b.webp" width="100"> | 640x640 | 40 | 5 | Euler Ancestral | Beta | 71.00s |
-| Wan Text-To-Video 14B <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation/wan-text-to-image-14b.webp" width="100"> | 640x640 | 40 | 5 | Euler Ancestral | Beta | 8.45m | | | | Yes |
+| Stable-Diffusion 3.5 Medium <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5Medium.png?raw=true" width="256"> | 1024x1024 | 30 | 5 | Euler | Normal | 15.34s | | No | Yes | Yes |
+| Stable-Diffusion 3.5 Medium Tensor-Art TurboX <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5MediumTurbo.png?raw=true" width="256"> | 1024x1024 | 8 | 1.5 | Euler Ancestral | Beta | 4.83s | | No | Yes | No |
+| Stable-Diffusion 3.5 Large <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5Large.png?raw=true" width="256">| 1024x1024 | 30 | 5 | Euler Ancestral | Normal | 49.64s | | Yes | Yes | Yes |
+| Stable-Diffusion 3.5 Large Tensor-Art TurboX <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5LargeTurbo.png?raw=true" width="256"> | 1024x1024 | 8 | 1.5 | Euler | Normal | 15.75s | | Yes | Yes | Yes |
+| Wan Text-To-Video 1.3B <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation/wan-text-to-image-1.3b.webp" width="256"> | 640x640 | 40 | 5 | Euler Ancestral | Beta | 71.00s |
+| Wan Text-To-Video 14B <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation/wan-text-to-image-14b.webp" width="256"> | 640x640 | 40 | 5 | Euler Ancestral | Beta | 8.45m | | | | Yes |
 | Wan Image-To-Video 14B - 480p | 640x640 | 20 | 5 | Euler Ancestral | Beta | 120.0s |
 | Wan Image-To-Video 14B - 720p | 960x960 | 20 | 5 | Euler Ancestral | Beta | 340.0s |
 
@@ -59,7 +59,7 @@ While there are thousands of styles that apply to image generation models. It is
 
 | Style | Thumb | Sample Prompt |
 |:-----------|:---:|:---:|
-| Anime/Cartoon | Thumb | anime artwork illustration of a cat in a magical rainbow forest |
-| Photorealistic | Thumb | cinematic film still of a cat in a magical rainbow forest |
-| 3D Rendering | Thumb | in-game 3d rendering of a cat in a magical rainbow forest |
-| Hyperrealism/2.5D Art | Thumb | hyperrealistic art of a cat in a magical rainbow forest |
+| Anime/Cartoon | <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/anime_artwork.png?raw=true" width="256"> | anime artwork illustration of a cat in a magical rainbow forest |
+| Photorealistic | <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/cinematic_film.png?raw=true" width="256"> | cinematic film still of a cat in a magical rainbow forest |
+| 3D Rendering | <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/3d_rendering.png?raw=true" width="256"> | in-game 3d rendering of a cat in a magical rainbow forest |
+| Hyperrealism/2.5D Art | <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/hyperrealistic_art.png?raw=true" width="256"> | hyperrealistic art of a cat in a magical rainbow forest |
