@@ -38,11 +38,11 @@ I will produce and publish image generations grids for the following parameters.
 ### Image Models
 | Model | Resolution | Steps | CFG | Sampler | Scheduler | Generation Time | Styles | Name Recognition | Characters | Text |
 |:-----------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Flux.schnell <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/Flux.Schnell.png?raw=true" width="256">| 1024x1024 | 4 | 1 | Euler | Beta | 9.72s |  | No | 2/5 | Yes |
-| Flux.Dev <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/Flux.Dev.png?raw=true" width="256">| 1024x1024 | 30 | 1 | Euler Ancestral | Beta | 64.78s |  | No | 2/5 | Yes |
-| Stable-Diffusion 1.5 <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD1.5-original.png?raw=true" width="256">| 512x512 | 30 | 6 | DPM++ 2M SDE | SGM Uniform | 2.42s | | Yes | 2/5 | No |
-| Stable-Diffusion XL (SDXL) <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SDXL.png?raw=true" width="256">| 1024x1024 | 30 | 5 | DPM++ SDE | SGM Uniform | 14.39s | | Yes | 4/5 | No |
-| <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/2dnPony.png?raw=true" width="256"> PONY (SDXL) | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 10.0s | | | 3/5 | |
+| Flux.schnell <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/Flux.Schnell.png?raw=true" width="256">| 1024x1024 | 4 | 1 | Euler | Beta | 9.72s |  | 0/5 | 2/5 | Yes |
+| Flux.Dev <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/Flux.Dev.png?raw=true" width="256">| 1024x1024 | 30 | 1 | Euler Ancestral | Beta | 64.78s |  | 0/5 | 2/5 | Yes |
+| Stable-Diffusion 1.5 <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD1.5-original.png?raw=true" width="256">| 512x512 | 30 | 6 | DPM++ 2M SDE | SGM Uniform | 2.42s | | 5/5 | 2/5 | No |
+| Stable-Diffusion XL (SDXL) <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SDXL.png?raw=true" width="256">| 1024x1024 | 30 | 5 | DPM++ SDE | SGM Uniform | 14.39s | | 5/5 | 4/5 | No |
+| <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/2dnPony.png?raw=true" width="256"> PONY (SDXL) | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 10.0s | | 2/5 | 3/5 | |
 | Illustrious (SDXL) <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/%CE%A3%CE%99%CE%97.png?raw=true" width="256"> | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 10.0s | | | 5/5 | |
 | Stable-Diffusion 3 | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 30.0s |
 | Stable-Diffusion 3.5 Medium <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5Medium.png?raw=true" width="256"> | 1024x1024 | 30 | 5 | Euler | Normal | 15.34s | | No | 4/5 | Yes |
