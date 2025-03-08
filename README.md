@@ -40,10 +40,10 @@ I will produce and publish image generations grids for the following parameters.
 |:-----------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Flux.schnell <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/Flux.Schnell.png?raw=true" width="256">| 1024x1024 | 4 | 1 | Euler | Beta | 9.72s |  | No | 2/5 | Yes |
 | Flux.Dev <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/Flux.Dev.png?raw=true" width="256">| 1024x1024 | 30 | 1 | Euler Ancestral | Beta | 64.78s |  | No | 2/5 | Yes |
-| Stable-Diffusion 1.5 <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD1.5.png?raw=true" width="256">| 512x512 | 30 | 6 | DPM++ 2M SDE | SGM Uniform | 2.42s | | Yes | 2/5 | No |
+| Stable-Diffusion 1.5 <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD1.5-original.png?raw=true" width="256">| 512x512 | 30 | 6 | DPM++ 2M SDE | SGM Uniform | 2.42s | | Yes | 2/5 | No |
 | Stable-Diffusion XL (SDXL) <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SDXL.png?raw=true" width="256">| 1024x1024 | 30 | 5 | DPM++ SDE | SGM Uniform | 14.39s | | Yes | 4/5 | No |
-| Pony (SDXL) | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 10.0s | | | 3/5 | |
-| Illustrious (SDXL) | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 10.0s | | | 5/5 | |
+| <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/2dnPony.png?raw=true" width="256"> PONY (SDXL) | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 10.0s | | | 3/5 | |
+| Illustrious (SDXL) <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/%CE%A3%CE%99%CE%97.png?raw=true" width="256"> | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 10.0s | | | 5/5 | |
 | Stable-Diffusion 3 | 1024x1024 | 20 | 5 | DPM++ SDE | SGM Uniform | 30.0s |
 | Stable-Diffusion 3.5 Medium <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5Medium.png?raw=true" width="256"> | 1024x1024 | 30 | 5 | Euler | Normal | 15.34s | | No | 4/5 | Yes |
 | Stable-Diffusion 3.5 Medium Tensor-Art TurboX <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5MediumTurbo.png?raw=true" width="256"> | 1024x1024 | 8 | 1.5 | Euler Ancestral | Beta | 4.83s | | No | 4/5 | No |
@@ -51,8 +51,8 @@ I will produce and publish image generations grids for the following parameters.
 | Stable-Diffusion 3.5 Large Tensor-Art TurboX <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation/SD3.5LargeTurbo.png?raw=true" width="256"> | 1024x1024 | 8 | 1.5 | Euler | Normal | 15.75s | | Yes | 4/5 | Yes |
 | Wan Text-To-Video 1.3B <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation/wan-text-to-image-1.3b.webp" width="256"> | 640x640 | 40 | 5 | Euler Ancestral | Beta | 71.00s | | | 0/5 | |
 | Wan Text-To-Video 14B <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation/wan-text-to-image-14b.webp" width="256"> | 640x640 | 40 | 5 | Euler Ancestral | Beta | 8.45m | | | 2/5 | Yes |
-| Wan Image-To-Video 14B - 480p | 640x640 | 20 | 5 | Euler Ancestral | Beta | 120.0s | N/A | N/A | N/A |
-| Wan Image-To-Video 14B - 720p | 960x960 | 20 | 5 | Euler Ancestral | Beta | 340.0s | N/A | N/A | N/A |
+| Wan Image-To-Video 14B - 480p <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation/wan-text-to-image-14b.webp" width="256"> | 640x640 | 20 | 5 | Euler Ancestral | Beta | 120.0s | N/A | N/A | N/A |
+| Wan Image-To-Video 14B - 720p <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation/wan-text-to-image-14b.webp" width="256"> | 960x960 | 20 | 5 | Euler Ancestral | Beta | 340.0s | N/A | N/A | N/A |
 
 ### Image Styles
 While there are thousands of styles that apply to image generation models. It is important to know which *basic* styles a model can produce before narrowing in on a specific artist or sub-style such as *cinematic film still*, or *analog film photo*. In the basic evaluation, I test to see whether or not an image model is capable of creating images in basic styles. Anime/Cartoon, Photorealistic, 3D Rendering, Hyperrealism/2.5D Art
