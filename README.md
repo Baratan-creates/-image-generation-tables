@@ -23,6 +23,9 @@ Langage models are scored based on `compliance, comprehension, coherence, creati
 | Example #2 | 75 | 12B | Q5_K_M | ChatML |
 | Example #3 | 50 | 8B | Q4_K_M | ChatML |
 
+# language-models
+<img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Language%20Models/chart00.jpg?raw=true" width="1080">
+
 ## Image Model Parameter Evaluation
 Rather than trying to rank image generation models based on subjective opinions I will record how the different parameters affect the outcome of the generation, hopefully allowing viewers to tweak their generations more to their liking. 
 I will produce and publish image generations grids for the following parameters. 
