@@ -11,17 +11,25 @@ Researching and cataloging generative ai image parameters and language model (LL
   - [Image Styles](#image-styles)
 
 ## Status
-This project is in **early development status**. This means that the basic catalogue of data has not yet been converted to the appropriate format for this website.
+This project is in **early development status**.
 
 ## Language Model Evaluations
 **Score** Language Model Creative Writing Scoring Index
-Langage models are scored based on `compliance, comprehension, coherence, creativity and realism.
+Langage models are scored based on `compliance, comprehension, coherence, creativity and realism. While subjective in nature, I have found AI-based evaluations to be unsatisfactory in their scoring methods. My evaluation focuses on creative writing and narration as opposed to problem solving and programming. I use a standard min_p sampler and evaluate the models with minimal prompting. The evaluation itself consists of 3 prompt series. Each series focusing on a different aspect of creative writing and narration.
 
-| Model | Score | Size | Quant Tested | Template |
-|:-----------|:---:|:---:|:---:|:---:|
-| Example #1 | 100 | 12B | EXL2 | Mistral |
-| Example #2 | 75 | 12B | Q5_K_M | ChatML |
-| Example #3 | 50 | 8B | Q4_K_M | ChatML |
+| Parameter | Criteria | Good Example | Bad Example |
+|:----------|:---------|:-------------|:------------|
+| Compliance| Did the model comply with the request?| *The AI provides the requested description.*| *The AI refuses to provide the requested description or describes something else.*|
+| Comprehension| Does the model comprehend the context?| USER: I kiss her neck. AI: You can feel her pulse quicken and taste her sweat on your lips.| USER: I kiss her neck. AI: You can feel her pulse quicken and taste her sweat on your lips.
+| Coherence| Was the response coherent within the context?| USER: I kiss her neck. AI: You can feel her pulse quicken and taste her sweat on your lips.| USER: I kiss her neck. AI: She tastes her sweat as your lips make contact with her neck.|
+| Creativity| Is the model creative and vivid?| | |
+| Realism| Are the descriptions and characterizations believable?| | |
+
+**Prompt:1** Content-rating and anatomical depiction. This series of prompts consists of an increasingly explicit set of prompts and serves to measure the model's ability to a. interact with explicit themes, b. provide realistic descriptions.
+
+**Prompt:2** Group Interaction and Relationship Dynamics. This series of prompts serves to test a model's ability to understand relationships between characters while introducing an increasing number of charcaters to the scene.
+
+**Prompt:3** Action scene. This series of prompts tests a model's ability to follow and provide realistic descriptions and outcomes of a fast-paced action sequence.
 
 # language-models
 <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Language%20Models/chart00.jpg?raw=true" width="1080">
