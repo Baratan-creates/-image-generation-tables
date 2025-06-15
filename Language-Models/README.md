@@ -16,13 +16,15 @@ Is the model's response realistic? Does Night City smell like sadness or greasy 
 #### Long-Term Viability
 A newly added exponential scoring variable based on how well a model performs in a to-context limit session. Ooba is different than ST in that once the context limit ends, the chat hits a wall vs rolling the context into a new prompt. My long-term viability sessions use a context limit of 8k. 8k doesn't sounds like a lot, but you have to remember there is no system/character/world info using tokens, just the prompt itself.
 
-| Parameter | Criteria | Good Example | Bad Example |
-|:----------|:---------|:-------------|:------------|
-| Compliance| Did the model comply with the request?| *The AI provides the requested description.*| *The AI refuses to provide the requested description or describes something else.*|
-| Comprehension| Does the model comprehend the context?| USER: I kiss her neck. AI: You can feel her pulse quicken and taste her sweat on your lips.| USER: I kiss her neck. AI: You can feel her pulse quicken and taste her sweat on your lips.
-| Coherence| Was the response coherent within the context?| USER: I kiss her neck. AI: You can feel her pulse quicken and taste her sweat on your lips.| USER: I kiss her neck. AI: She tastes her sweat as your lips make contact with her neck.|
-| Creativity| Is the model creative and vivid?| | |
-| Realism| Are the descriptions and characterizations believable?| | |
+| Parameter           | Criteria                                               |
+| :------------------ | :----------------------------------------------------- |
+| Compliance          | Did the model comply with the request?                 |
+| Comprehension       | Does the model comprehend the context?                 |
+| Coherence           | Was the response coherent within the context?          |
+| Creativity          | Is the model creative and vivid?                       |
+| Realism             | Are the descriptions and characterizations believable? |
+| Format              | Does the model follow formatting guidelines?           |
+| Long-term Viability | Does the model break-down in longer contexts?          |
 
 **Prompt:1** Content-rating and anatomical depiction. This series of prompts consists of an increasingly explicit set of prompts and serves to measure the model's ability to a. interact with explicit themes, b. provide realistic descriptions.
 
