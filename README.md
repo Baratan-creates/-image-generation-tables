@@ -1,6 +1,5 @@
 # Image & Language-Generation-Tables
 Researching and cataloging generative ai image parameters and language model (LLM) creative writing and comprehension.
-
 ## Table of Contents
 - [Image & Language-Generation-Tables](#image--language-generation-tables)
 - [Status](#status)
@@ -9,14 +8,11 @@ Researching and cataloging generative ai image parameters and language model (LL
 - [Image Model Parameter Evaluation](#image-model-parameter-evaluation)
   - [Image Models](#image-models)
   - [Image Styles](#image-styles)
-
 ## Status
 This project is in **early development status**.
-
 ## Language Model Evaluations
 **Score** Language Model Creative Writing Scoring Index
-Langage models are scored based on `compliance, comprehension, coherence, creativity and realism. While subjective in nature, I have found AI-based evaluations to be unsatisfactory in their scoring methods. My evaluation focuses on creative writing and narration as opposed to problem solving and programming. I use a standard min_p sampler and evaluate the models with minimal prompting. The evaluation itself consists of 3 prompt series. Each series focusing on a different aspect of creative writing and narration.
-
+Language models are scored based on `compliance, comprehension, coherence, creativity and realism. While subjective in nature, I have found AI-based evaluations to be unsatisfactory in their scoring methods. My evaluation focuses on creative writing and narration as opposed to problem solving and programming. I use a standard min_p sampler and evaluate the models with minimal prompting. The evaluation itself consists of 3 prompt series. Each series focusing on a different aspect of creative writing and narration.
 ### Methodology
 Models are tested in a *vacuum*. Outside of ST in Ooba (backend I use when I run ST.) There is no character/system, just **prompt**. Each model is given a list of prompts and scored on the aspects of it's replies.
 #### Compliance
@@ -24,7 +20,7 @@ Does the model comply with the prompt? Obviously, if the model refuses it will s
 #### Comprehension
 Does the model comprehend the prompt? This is a bridge between compliance and coherence. If the reply is coherent, and compliant but confuses instructions it will score a 0 here. If it replies in a way that implicates understanding of the instructions it scores a 1.
 #### Coherence
-Is the model's response coherent? Not considering formatting, tone or length, if the model produces a coherent reponse it scores a 1. If the response is incoherent it scores a 0.
+Is the model's response coherent? Not considering formatting, tone or length, if the model produces a coherent respones it scores a 1. If the response is incoherent it scores a 0.
 #### Creativity
 Is the model creative in it's response? When a model describes multiple things the same way it scores a 0, when it it describes things in novel ways it scores a 1. Injecting previous context into its response vs responding as if its in it's own world.
 #### Realism
@@ -45,10 +41,8 @@ A newly added exponential scoring variable based on how well a model performs in
 **Prompt:2** Group Interaction and Relationship Dynamics. This series of prompts serves to test a model's ability to understand relationships between characters while introducing an increasing number of charcaters to the scene.
 
 **Prompt:3** Action scene. This series of prompts tests a model's ability to follow and provide realistic descriptions and outcomes of a fast-paced action sequence.
-
 # language-models
 <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Language%20Models/chart00.jpg?raw=true" width="1080">
-
 ## Image Model Parameter Evaluation
 Rather than trying to rank image generation models based on subjective opinions I will record how the different parameters affect the outcome of the generation, hopefully allowing viewers to tweak their generations more to their liking. 
 I will produce and publish image generations grids for the following parameters. 
@@ -57,7 +51,7 @@ I will produce and publish image generations grids for the following parameters.
 
 **Styles** counts the number of styles the model can produce naturally (anime, photo, 3d rendering, hyperrealism). 
 
-**Name Recognition** Indicates whether or not an image generation model can produce recognizable lickeness of named figures. 
+**Name Recognition** Indicates whether or not an image generation model can produce recognizable likeness of named figures. 
 
 **Characters** Indicates whether or not the model can generate images of common fictional characters without a lora or descriptive text.
 
