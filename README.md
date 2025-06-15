@@ -12,7 +12,7 @@ Researching and cataloging generative ai image parameters and language model (LL
 This project is in **early development status**.
 
 ## Language Model Evaluations
-[https://github.com/Baratan-creates/-image-generation-tables/blob/3ebbbeef96040f1f1d4a6e08ae252010ddd95aea/Language%20Models/readme.md](Link?)
+[GoTo: Language Model Evaluations](https://github.com/Baratan-creates/-image-generation-tables/blob/3ebbbeef96040f1f1d4a6e08ae252010ddd95aea/Language%20Models/readme.md)
 
 ## Image Model Parameter Evaluation
 Rather than trying to rank image generation models based on subjective opinions I will record how the different parameters affect the outcome of the generation, hopefully allowing viewers to tweak their generations more to their liking. 
