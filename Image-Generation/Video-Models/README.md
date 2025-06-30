@@ -39,3 +39,28 @@ Using turbo LORAs, comparing generation time and output quality depending on vid
 | FusionX + LCM_r16 | 2.42 min | 4.45 min | 6.46 min |
 
 ## Image-to-Video (I2V)
+
+### LORA Comparison
+Comparing Wan Native I2V(no LORA) with speed-up (turbo) LORAS. Comparing generation time with output quality. Native generation is 20-steps per frame. LORA generation is 4-steps per frame. CFG is always 1.
+
+| 5-second video | 20 Steps (Default) | CausVid | FusionX | lightx2v | lcm_r16 |
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|  Generation Time | 14.96 min | 3.20 min | 3.03 min | 3.02 min | 3.04 min |
+| FPS/Frames| 16/81 | 24/121 | 24/121 | 24/121 | 24/121 |
+| Video | <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation\Video-Models\i2v_native.webp?raw=true" width="256"> | <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation\Video-Models\i2v_causvid.webp?raw=true" width="256"> | <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation\Video-Models\i2v_fusionx.webp?raw=true" width="256"> | <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation\Video-Models\i2v_lightx2v.webp?raw=true" width="256"> | <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation\Video-Models\i2v_lcm_r16.webp?raw=true" width="256"> |
+
+| 5-second video | FusionX+CausVid | FusionX+lightx2v | FusionX+lcm_r16 |
+|:-:|:-:|:-:|:-:|
+|  Generation Time | 3.04 min | 3.04 min | 3.01 min |
+| FPS/Frames | 24/121 | 24/121 | 24/121 | 24/121 |
+| Video | <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation\Video-Models\i2v_FusionX_CausVid.webp?raw=true" width="256"> | <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation\Video-Models\i2v_FusionX_lightx2v.webp?raw=true" width="256"> | <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation\Video-Models\i2v_FusionX_lcm_r16.webp?raw=true" width="256"> |
+
+### Sampler Comparison
+Comparing turbo LORAS while using LCM/Beta vs the default Euler/Simple.
+
+| 5-second video | Euler / Simple | LCM / Beta |
+|:-:|:-:|:-:|
+| CausVid | <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation\Video-Models\i2v_causvid.webp?raw=true" width="256"> | <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation\Video-Models\i2v_lcm_causvid.webp?raw=true" width="256"> |
+| CausVid + FusionX | <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation\Video-Models\i2v_FusionX_CausVid.webp?raw=true" width="256"> | <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation\Video-Models\i2v_lcm_causvid_fusionx.webp?raw=true" width="256"> |
+| FusionX + LightX2v | <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation\Video-Models\i2v_FusionX_lightx2v.webp?raw=true" width="256"> | <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation\Video-Models\i2v_lcm_fusionx_lightx.webp?raw=true" width="256"> |
+| FusionX + LCM_r16 | <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation\Video-Models\i2v_FusionX_lcm_r16.webp?raw=true" width="256"> | <img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Image-Generation\Video-Models\i2v_lcm_fusionx_lcm.webp?raw=true" width="256"> |
