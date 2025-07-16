@@ -23,7 +23,9 @@ Model: `Wan2_1-T2V-1_3B_bf16`
 
 LORA: `Wan2.1-T2V-1.3B-Self-Forcing-DMD-FP16-LoRA-Rank32`
 ## Step-count
-4, 8, 10, 12, 24, 48 Steps
+|4 Steps|8 Steps|10 Steps|12 Steps|24 Steps|48 Steps|
+|:-:|:-:|:-:|:-:|:-:|:-:|
+
 ![alt text](1_3b-stepcount.jpg)
 LCM/BETA chosen for this comparison.
 
@@ -42,12 +44,21 @@ LORA
 - Wan2.1_T2V_14B_FusionX_LoRA
 - Lightx2v_cfg_step_distill_lora_rank32
 ## Step-Count
-4, 8, 10, 12, 24, 48 Steps
+4, 8, 12, 24, 48 Steps
 ### Euler/Beta
+|4 Steps|8 Steps|12 Steps|24 Steps|48 Steps|
+|:-:|:-:|:-:|:-:|:-:|
+
 ![alt text](14b-stepcount-fusionx.jpg)
 ### UniPC/Beta
+|4 Steps|8 Steps|12 Steps|24 Steps|48 Steps|
+|:-:|:-:|:-:|:-:|:-:|
+
 ![alt text](14b-stepcount-fusionx-unipc-beta.jpg)
 ### LCM/Beta
+|4 Steps|8 Steps|12 Steps|24 Steps|48 Steps|
+|:-:|:-:|:-:|:-:|:-:|
+
 ![alt text](14b-stepcount-fusionx-lcm-beta.jpg)
 ## Sampler/Scheduler
 ### 8-Steps
@@ -62,5 +73,14 @@ LORA
 **Since** Wan2.1-14b has multiple valid LORA combinations, they are tested and evaluated below. The evaluation includes.
 - LightX2v
 - FusionX
+### Euler/Simple
+![alt text](14b-lora-euler-simple.jpg)
+### LCM/Beta
+![alt text](14b-lora-lcm-beta.jpg)
+
 ## Conclusion
-With **WAN2.1-14b**, Any (Euler/Simple, UniPC/BETA, LCM/BETA) should be used with 24-steps + Wan2.1_T2V_14B_FusionX_LoRA @ 1024x1024
+With **WAN2.1-14b**, Any (Euler/Simple, UniPC/BETA, LCM/BETA) should be used with...
+- FusionX @ 12-24 Steps
+- LightX2V @ 12-24 Steps
+- FusionX + LightX2V @ 4-8 Steps
+- FusionX(0.6) + LightX2V @ 4-8 Steps
