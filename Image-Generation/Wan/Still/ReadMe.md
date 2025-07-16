@@ -35,9 +35,12 @@ LCM/BETA chosen for this comparison.
 With **WAN2.1-1.3b**, LCM/BETA should be used with 12-steps + Wan2.1-T2V-1.3B-Self-Forcing-DMD-FP16-LoRA-Rank32 @ 480x480
 
 # 14b
-Model: `wan2.1-t2v-14b-Q4_K_M.gguf`
+Model
+- Wan2.1-t2v-14b-Q4_K_M.gguf
 
-LORA: `Wan2.1_T2V_14B_FusionX_LoRA`
+LORA
+- Wan2.1_T2V_14B_FusionX_LoRA
+- Lightx2v_cfg_step_distill_lora_rank32
 ## Step-Count
 4, 8, 10, 12, 24, 48 Steps
 ### Euler/Beta
@@ -55,5 +58,9 @@ LORA: `Wan2.1_T2V_14B_FusionX_LoRA`
 ![alt text](14b-sampler-24steps.jpg)
 ### 48-Steps
 ![alt text](14b-sampler-48steps.jpg)
+## LORA Comparison
+**Since** Wan2.1-14b has multiple valid LORA combinations, they are tested and evaluated below. The evaluation includes.
+- LightX2v
+- FusionX
 ## Conclusion
 With **WAN2.1-14b**, Any (Euler/Simple, UniPC/BETA, LCM/BETA) should be used with 24-steps + Wan2.1_T2V_14B_FusionX_LoRA @ 1024x1024
