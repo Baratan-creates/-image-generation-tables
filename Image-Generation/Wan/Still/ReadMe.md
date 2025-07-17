@@ -75,8 +75,25 @@ LORA
 - FusionX
 ### Euler/Simple
 ![alt text](14b-lora-euler-simple.jpg)
+![alt text](14b-lora-euler-simple-2.jpg)
 ### LCM/Beta
 ![alt text](14b-lora-lcm-beta.jpg)
+![alt text](14b-lora-lcm-beta-2.jpg)
+### UniPC/Beta
+![alt text](14b-lora-unipc-beta-2.jpg)
+
+# Prompt Adherence
+**The prompt** used in these generations is...
+
+    Leon Kennedy wearing a red suit. He is smiling and carrying a shotgun. Jill Valentine is wearing a blue bikini and a blue beret. She is sitting on a toilet holding a banana. Claire Redfield is wearing a yellow dress and she is making a snowman out of sand. There is a Star Destroyer in the background.
+## 1.3b
+## 14b
+### Euler/Simple
+![alt text](14b-prompt-euler-simple.jpg)
+### UniPC/Beta
+![alt text](14b-prompt-unipc-beta.jpg)
+### LCM/Beta
+![alt text](14b-prompt-lcm-beta.jpg)
 
 ## Conclusion
 With **WAN2.1-14b**, Any (Euler/Simple, UniPC/BETA, LCM/BETA) should be used with...
