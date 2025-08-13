@@ -42,4 +42,4 @@ A newly added exponential scoring variable based on how well a model performs in
 - **Prompt:3** Action scene. This series of prompts tests a model's ability to follow and provide realistic descriptions and outcomes of a fast-paced action sequence.
 ## Language Models Evaluated
 
-![alt text](chart00.jpg)
+<img src="https://github.com/Baratan-creates/-image-generation-tables/blob/main/Language-Models/chart00.jpg?raw=true">
