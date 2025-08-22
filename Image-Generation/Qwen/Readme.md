@@ -21,7 +21,7 @@ Which one should you use? While Qwen-Distill is decent & fast on it's own, Qwen-
 | Steps | 20 | 20 | 1 |
 | CFG | 2.5 | 2.5 | 10 |
 | Gen. Time | 2.69 min | 3.17 min | 85.69 sec |
-| Image | <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation\Qwen\fp8.png" width="256"> | <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation\Qwen\gguf.png" width="256"> | <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation\Qwen\distill.png" width="256"> |
+| Image | <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation\Qwen\fp8.png" width="256"> | <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation\Qwen\gguf.png" width="256"> | <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation\Qwen\Distill.png" width="256"> |
 
 On it's own, Qwen-Distilled is the clear winner here. However, the introduction of the **Lightning-LoRa** changes things.
 
