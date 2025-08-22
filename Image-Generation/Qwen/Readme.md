@@ -27,6 +27,13 @@ On it's own, Qwen-Distilled is the clear winner here. However, the introduction 
 
 | Model | fp8 | q4_km.gguf | distill  |
 |:-:|:-:|:-:|:-:|
+| Steps | 4 | 4 | 4 |
+| CFG | 1 | 1 | 1 |
+| Gen. Time | 32.38 sec | 26.08 sec | 64.80 sec |
+| Image | <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation\Qwen\fp8-lightning-4.png" width="256"> | <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation\Qwen\gguf-lightning-4.png" width="256"> | <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation\Qwen\distill-lightning-4.png" width="256"> |
+
+| Model | fp8 | q4_km.gguf | distill  |
+|:-:|:-:|:-:|:-:|
 | Steps | 8 | 8 | 8 |
 | CFG | 1 | 1 | 1 |
 | Gen. Time | 49.02 sec | 83.36 sec | 64.80 sec |
