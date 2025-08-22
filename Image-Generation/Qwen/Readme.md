@@ -18,8 +18,8 @@ The **Lightning-LoRa** solution is very similar to that of the **DMD2-LoRa** man
 Which one should you use? While Qwen-Distill is decent & fast on it's own, Qwen-Image+Lightning-LoRa is much faster.
 | Model | fp8 | q4_km.gguf | distill  |
 |:-:|:-:|:-:|:-:|
-| Steps | 20 | 20 | 1 |
-| CFG | 2.5 | 2.5 | 10 |
+| Steps | 20 | 20 | 10 |
+| CFG | 2.5 | 2.5 | 1 |
 | Gen. Time | 2.69 min | 3.17 min | 85.69 sec |
 | Image | <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation\Qwen\fp8.png" width="256"> | <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation\Qwen\gguf.png" width="256"> | <img src="https://github.com/Baratan-creates/-image-generation-tables/raw/refs/heads/main/Image-Generation\Qwen\Distill.png" width="256"> |
 
