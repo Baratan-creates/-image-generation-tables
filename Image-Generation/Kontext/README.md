@@ -3,6 +3,7 @@
 # Quant Comparison
 ## fp8(default) vs RedCraft-fp8 vs Q4_KM.gguf vs Nunchaku_int4
 Prompt #1: `Make the image into a pixel art image with 8bit graphics, NES, old school, 8bit, pixel. Add the words "*variable*" to the image.`
+
 Prompt #2: `Make her real. Candid photo. Add the words "*variable*" to the image.`
 
 || fp8 | RedCraft fp8 | Q4_KM.gguf | Nunchaku int4 |
