@@ -1,3 +1,15 @@
+## Summary
+| Model | Likeness Score | Generation Time (avg) | Notes |
+| --- | ---: | ---: | :--- |
+| Krea 2 | +++++ | +++ | |
+| Z-Image Turbo | ++++ | +++++ | |
+| Qwen Image 2.1 Turbo | ++++ | ++++ | |
+| Qwn Image 2.1 | ++++ | + | |
+| Flux 3 Klein | ++++ | ++ | Very poor image quality |
+| Flux 2 Klein 9b | ++++ | ++++ | |
+| Moss Turbo | ++++ | ++++ | |
+| Moss Image | +++++ | ++ | |
+
 # Purpose
 The purpose of this document is to record modern image generation models in a comparison. We will compare the models against each-other to measure their knowledge, likeness, image quality and generation speed.
 
